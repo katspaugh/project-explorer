@@ -1,3 +1,5 @@
+(require 'cl)
+
 (ert-deftest pe/compress-tree ()
   (let (( tree1 '("path0"
                   ("path1"
